@@ -1,0 +1,57 @@
+html {
+    font-size: 0.75rem;
+}
+
+body {
+    background-color: #fffffd;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width:576px) {
+    .sm {
+        display: none;
+    }
+}
+
+.home:hover,
+.defa:hover,
+.btn:hover {
+    color: rgb(239, 141, 108);
+}
+
+.defa {
+    color: black;
+}
+
+.acti {
+    color: rgb(239, 141, 108);
+}
+
+.bord {
+    border: 1px solid rgb(113, 111, 111);
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.txt {
+    color: rgb(113, 111, 111);
+}
+
+.inp {
+    background-color: rgb(43, 43, 43);
+    color: lightgray;
+}
+
+.cardHovering:hover {
+    opacity: 75%;
+}
+
+.socialFooterH:hover {
+    background-color: white;
+    color: rgb(113, 111, 111) !important;
+}
